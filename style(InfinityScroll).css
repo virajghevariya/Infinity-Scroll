@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+.loader{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: whitesmoke;
+}
+.loader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: cinzel , sans-serif;
+    background: whitesmoke  ;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 14px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+/* Image container */
+.image-container {
+    margin: 20px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    .image-container {
+        margin: 20px;
+    }
+}
